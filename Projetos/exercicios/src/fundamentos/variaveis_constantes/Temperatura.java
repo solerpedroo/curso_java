@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.variaveis_constantes;
 
 public class Temperatura {
     public static void main(String[] args) {

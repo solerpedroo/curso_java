@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.tipos;
 
 public class PrimitivoVsObjeto {
     public static void main(String[] args) {

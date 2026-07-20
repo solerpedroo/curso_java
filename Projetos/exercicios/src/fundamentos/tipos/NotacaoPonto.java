@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.tipos;
 
 public class NotacaoPonto {
     public static void main(String[] args) {

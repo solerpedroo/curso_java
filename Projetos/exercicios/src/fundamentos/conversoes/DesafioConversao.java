@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.conversoes;
 
 import java.util.Scanner;
 

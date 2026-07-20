@@ -1,6 +1,4 @@
-package fundamentos;
-
-import java.util.Scanner;
+package fundamentos.tipos;
 
 public class Wrappers {
     public static void main(String[] args) {
