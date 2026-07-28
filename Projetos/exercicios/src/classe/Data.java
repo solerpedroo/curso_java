@@ -6,23 +6,26 @@ public class Data {
     int ano;
 
     Data(){
-        dia = 1;
-        mes = 1;
-        ano = 1970;
+        // dia = 1;
+        // mes = 1;
+        // ano = 1970;
+        this(1,1,1970);
     }
 
-    Data(int diaInicial, int mesInicial, int anoInicial){
-        dia = diaInicial;
-        mes = mesInicial;
-        ano = anoInicial;
+    Data(int dia, int mes, int ano){
+        this.dia = dia;
+        this.mes = mes;
+        this.ano = ano;
     }
 
     String dataFormatada(){
-        return String.format("%d/%d/%d", dia, mes, ano);
+        return String.format("%d/%d/%d", this.dia, mes, ano);
     }
 
     void imprimirDataFormatada(){
         System.out.printf("%d/%d/%d\n", dia, mes, ano);
-        // ou System.out.println(dataFormatada);
+        // ou System.out.println(this.dataFormatada);
     }
+
+    // em métodos static não é possível usar o this
 }
