@@ -19,7 +19,8 @@ public class Data {
     }
 
     String dataFormatada(){
-        return String.format("%d/%d/%d", this.dia, mes, ano);
+        final String formato = "%d/%d/%d"; // variável do método
+        return String.format(formato, this.dia, mes, ano);
     }
 
     void imprimirDataFormatada(){
