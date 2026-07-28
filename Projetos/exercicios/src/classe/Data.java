@@ -29,4 +29,13 @@ public class Data {
     }
 
     // em métodos static não é possível usar o this
+
+    // valor padrão quando não define nada:
+    // byte, short, int, long -> 0
+    // float, double -> 0.0
+    // boolean -> false
+    // char -> '\u0000'
+    // objetos -> null
+
+    // quando define uma constante (final, const...) deve informar o valor nela ou no construtor
 }
