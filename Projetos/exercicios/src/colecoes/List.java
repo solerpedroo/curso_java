@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class List {
     public static void main(String[] args) {
-        ArrayList<Usuario> lista = new ArrayList<>();
+        ArrayList<Usuario> lista = new ArrayList<>(); // pode usar List no começo também
 
         Usuario u1 = new Usuario("Ana");
         lista.add(u1);
