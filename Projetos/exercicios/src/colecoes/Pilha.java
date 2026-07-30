@@ -14,6 +14,10 @@ public class Pilha {
         System.out.println(livros.peek());
         System.out.println(livros.element());
 
+        for(String livro: livros){
+            System.out.println(livro);
+        }
+
         System.out.println(livros.pop()); // joga uma exceção
         System.out.println(livros.poll()); // retorna null
         System.out.println(livros.poll());
