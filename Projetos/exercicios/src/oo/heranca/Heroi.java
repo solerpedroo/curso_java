@@ -7,4 +7,8 @@ public class Heroi extends Jogador{
         boolean ataque3 = super.atacar(oponente);
         return ataque1 || ataque2 || ataque3;
     }
+
+    Heroi(int x, int y){
+        super(x, y);
+    }
 }

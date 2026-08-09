@@ -37,4 +37,9 @@ public class Jogador {
         }
         return true;
     }
+
+    Jogador(int x, int y){
+        this.x = x;
+        this.y = y;
+    }
 }
