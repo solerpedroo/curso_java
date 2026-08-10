@@ -1,7 +1,7 @@
 package oo.heranca.desafio;
 
 public class Classic extends Carro {
-    Classic (){
+    public Classic (){
         super(180);
     }
 }

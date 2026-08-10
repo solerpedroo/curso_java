@@ -4,15 +4,15 @@ public class Ferrari extends Carro {
     // acelera mais rápido (15 em 15)
 
 //    @Override
-//    void acelerar() {
+//    public void acelerar() {
 //        super.acelerar();
 //    }
 
-    Ferrari(){
+    public Ferrari(){
         this(315);
     }
 
-    Ferrari(double velocidadeMaxima){
+    public Ferrari(double velocidadeMaxima){
         super(velocidadeMaxima);
         delta = 15;
     }
