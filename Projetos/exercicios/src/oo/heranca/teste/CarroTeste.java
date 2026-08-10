@@ -14,6 +14,8 @@ public class CarroTeste {
         classic.velocidadeAtual = 50;
         civic.velocidadeAtual = 100;
 
+        ferrari.ligarTurbo();
+
         System.out.println("A velocidade atual da Ferrari é: " + ferrari.velocidadeAtual);
         System.out.println("A velocidade atual do Classic é: " + classic.velocidadeAtual);
         System.out.println("A velocidade atual do Civic é: " + civic.velocidadeAtual);
